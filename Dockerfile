@@ -10,4 +10,4 @@ COPY . .
 EXPOSE 8090
 
 # Usar Uvicorn para correr FastAPI
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8090"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
